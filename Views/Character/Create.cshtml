@@ -1,0 +1,39 @@
+﻿@model DnDVTT.Models.Character
+
+<h2>Create Character</h2>
+
+<form asp-action="Create">
+    <label>Name</label>
+    <input asp-for="Name" /><br />
+
+    <label>Class</label>
+    <input asp-for="Class" /><br />
+
+    <label>Background</label>
+    <input asp-for="Background" /><br />
+
+    <label>Species</label>
+    <input asp-for="Species" /><br />
+
+    <label>Level</label>
+    <input asp-for="Level" type="number" /><br />
+
+    <label asp-for="ArmorClass"></label>
+    <input asp-for="ArmorClass" type="number" /><br />
+
+    <h3>Ability Scores</h3>
+    <input asp-for="Strength" placeholder="STR" />
+    <input asp-for="Dexterity" placeholder="DEX" />
+    <input asp-for="Constitution" placeholder="CON" />
+    <input asp-for="Intelligence" placeholder="INT" />
+    <input asp-for="Wisdom" placeholder="WIS" />
+    <input asp-for="Charisma" placeholder="CHA" />
+    
+
+    <br /><br />
+    <button type="submit">Create</button>
+</form>
+
+
+<p><a href="/Character">← Back to character list</a></p>
+

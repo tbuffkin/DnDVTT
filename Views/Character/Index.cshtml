@@ -1,0 +1,10 @@
+﻿@model List<DnDVTT.Models.Character>
+
+<h1>All Characters</h1>
+
+<ul>
+    @foreach (var c in Model)
+    {
+        <li><a href="/Character/Details/@c.Id">@c.Name</a></li>
+    }
+</ul>

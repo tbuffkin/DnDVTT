@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DnDVTT
+build_property.RootNamespace = DnDVTT
+build_property.ProjectDir = C:\Users\tombu\source\repos\DnDVTT\DnDVTT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tombu\source\repos\DnDVTT\DnDVTT
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/BattleMaps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0dGxlTWFwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/BattleMaps/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0dGxlTWFwc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/BattleMaps/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0dGxlTWFwc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/BattleMaps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0dGxlTWFwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/BattleMaps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0dGxlTWFwc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/_InventoryTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXF9JbnZlbnRvcnlUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Character/_SpellbookTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyXF9TcGVsbGJvb2tUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/InventoryItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/InventoryItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/InventoryItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/InventoryItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/InventoryItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5SXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Spells/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Spells/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Spells/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Spells/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Spells/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BlbGxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Tokens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Tokens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Tokens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Tokens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Tokens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9rZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tombu/source/repos/DnDVTT/DnDVTT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mi53zd99hp

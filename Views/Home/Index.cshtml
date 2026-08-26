@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<canvas id="vtt-canvas" width="800" height="600" style="border:1px solid #000"></canvas>
+
+<script>
+    const canvas = document.getElementById('vtt-canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Example map image (replace with your own)
+    const mapImage = new Image();
+    mapImage.src = '/images/download1.jpg';
+    mapImage.onload = () => {
+        ctx.drawImage(mapImage, 0, 0, canvas.width, canvas.height);
+    };
+
+    // Sample token
+    const tokenImage = new Image();
+    tokenImage.src = '/images/token1.png';
+    tokenImage.onload = () => {
+        ctx.drawImage(tokenImage, 100, 100, 50, 50);
+    };
+</script>
+
+<div id="dice-roller" style="margin-top: 20px;">
+    <h3>🎲 Dice Roller</h3>
+    <select id="dice-type">
+        <option value="4">d4</option>
+        <option value="6">d6</option>
+        <option value="8">d8</option>
+        <option value="10">d10</option>
+        <option value="12">d12</option>
+        <option value="20">d20</option>
+        <option value="100">d100</option>
+    </select>
+    <button onclick="rollDice()">Roll</button>
+    <p id="dice-result"></p>
+</div>
+
+<script>
+    function rollDice() {
+        const sides = parseInt(document.getElementById('dice-type').value);
+        const result = Math.floor(Math.random() * sides) + 1;
+        document.getElementById('dice-result').innerText = `You rolled: ${result}`;
+    }
+</script>
+
+<div id="initiative-tracker" style="margin-top: 40px;">
+    <h3>⚔️ Initiative Tracker</h3>
+    <input type="text" id="char-name" placeholder="Name" />
+    <input type="number" id="char-init" placeholder="Initiative Roll" />
+    <button onclick="addToInitiative()">Add</button>
+    <ul id="initiative-list"></ul>
+    <button onclick="nextTurn()">➡️ Next Turn</button>
+</div>
+
+<script>
+    let initiativeList = [];
+    let currentTurnIndex = 0;
+
+    function addToInitiative() {
+        const name = document.getElementById('char-name').value;
+        const initiative = parseInt(document.getElementById('char-init').value);
+        if (!name || isNaN(initiative)) return;
+
+        initiativeList.push({ name, initiative });
+        initiativeList.sort((a, b) => b.initiative - a.initiative);
+        currentTurnIndex = 0;
+        updateInitiativeDisplay();
+    }
+
+    function updateInitiativeDisplay() {
+        const list = document.getElementById('initiative-list');
+        list.innerHTML = "";
+        initiativeList.forEach((entry, i) => {
+            const li = document.createElement('li');
+            li.textContent = `${entry.name} (Init: ${entry.initiative})`;
+            if (i === currentTurnIndex) {
+                li.style.fontWeight = 'bold';
+                li.style.color = 'green';
+                li.textContent += " ← Current Turn";
+            }
+            list.appendChild(li);
+        });
+    }
+
+    function nextTurn() {
+        if (initiativeList.length === 0) return;
+        currentTurnIndex = (currentTurnIndex + 1) % initiativeList.length;
+        updateInitiativeDisplay();
+    }
+</script>
+
+

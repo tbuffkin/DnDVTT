@@ -1,0 +1,103 @@
+﻿@model DnDVTT.Models.Character
+
+@{
+    ViewData["Title"] = $"{Model.Name}'s Character Sheet";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">@Model.Name's Character Sheet</h2>
+
+    <div class="row">
+        <!-- Left column -->
+        <div class="col-md-6 d-flex flex-column gap-3">
+            <!-- Stats -->
+            <div class="card mb-3">
+                <div class="card-header fw-bold">
+                    🎲 Stats
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3"><strong>Level:</strong> @Model.Level</div>
+                        <div class="col-md-3"><strong>Class:</strong> @Model.Class</div>
+                        <div class="col-md-3"><strong>Race:</strong> @Model.Species</div>
+                        <div class="col-md-3"><strong>AC:</strong> @Model.ArmorClass</div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-3"><strong>Proficiency:</strong> @Model.Proficiency</div>
+                        <div class="col-md-3"><strong>Initiative:</strong> @Model.Initiative</div>
+                        <div class="col-md-3"><strong>Walking:</strong> @Model.Walking</div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-2"><strong>STR:</strong> @Model.Strength</div>
+                        <div class="col-md-2"><strong>DEX:</strong> @Model.Dexterity</div>
+                        <div class="col-md-2"><strong>CON:</strong> @Model.Constitution</div>
+                        <div class="col-md-2"><strong>INT:</strong> @Model.Intelligence</div>
+                        <div class="col-md-2"><strong>WIS:</strong> @Model.Wisdom</div>
+                        <div class="col-md-2"><strong>CHA:</strong> @Model.Charisma</div>
+                    </div>
+                </div>
+            </div>
+            
+              <div class="card">
+                 <div class="card-header fw-bold"> Coin</div>
+                 <div class="card-body p-0"></div> 
+                    <div class="mb-0">
+                    <label><strong>CP:</strong></label>
+                    <input type="number" name="CP:" value="" style="width: 100px;" />
+                    <label><strong>SP:</strong></label>
+                    <input type="number" name="SP:" value="" style="width: 100px;" />
+                    <label><strong>GP:</strong></label>
+                    <input type="number" name="GP:" value="" style="width: 100px;" />
+                    <label><strong>PP:</strong></label>
+                    <input type="number" name="PP:" value="" style="width: 100px;"/>
+
+                    </div>
+            
+              </div>  
+
+
+            <!-- Inventory -->
+            <div class="card">
+                <div class="card-header fw-bold">📦 Inventory</div>
+                <div class="card-body p-0">
+                    @await Html.PartialAsync("_InventoryTable", Model)
+                </div>
+            </div>
+        </div>
+
+        <!-- Right column -->
+        <div class="col-md-6 d-flex flex-column gap-3">
+            <!-- HP and Notes -->
+            <div class="card">
+                <div class="card-header fw-bold">❤️ HP & Notes</div>
+                <div class="card-body">
+                    <form asp-action="UpdateHpNotes" method="post">
+                        <input type="hidden" name="id" value="@Model.Id" />
+                        <div class="mb-0">
+                            <label><strong>HP</strong></label>
+                            <input type="number" name="hp" value="@Model.CurrentHP" />
+                            <label><strong>Max HP</strong></label>
+                            <input type="number" name="Max HP" value="@Model.MaxHP">
+                        </div>
+                        <div class="mb-2">
+                            <label>Notes</label>
+                            <textarea name="notes" class="form-control" rows="3">@Model.Notes</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-sm btn-primary">💾 Save</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Spellbook -->
+            <div class="card">
+                <div class="card-header fw-bold">📘 Spellbook</div>
+                <div class="card-body p-0">
+                    @await Html.PartialAsync("_SpellbookTable", Model)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
